@@ -3,11 +3,13 @@
   margin: 0;
 }
 .container {
-  background: hsl(225, 100%, 94%);
+  background: hsl(225, 100%, 94%) url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
   padding: 10px;
   font-family: 'Red Hat Display', sans-serif;
   margin: auto;
   width: 375px;
+  height: auto;
 }
 
 .container__body {
