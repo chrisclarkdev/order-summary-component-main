@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background: hsl(225, 100%, 94%);
+  padding: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: auto;
+  width: 375px;
+}
+
+.container__body {
+  margin: auto;
+}
+.info__container {
+  padding: 60px 15px;
+  /* background: hsl(225, 100%, 94%); */
+}
+.hero__img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: -35px;
+}
+
+.title__tag {
+  font-size: 1.4em;
+  margin: 0px 0 20px 0;
+  padding: 60px 0 0px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.price__container {
+  background: hsl(231, 100%, 99%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 0;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.price__container h2 {
+  font-size: 0.9em;
+}
+
+.h2__price {
+  color: hsl(224, 23%, 55%);
+}
+.music-icon {
+  width: 50px;
+  height: 50px;
+  margin: 25px 0;
+}
+p {
+  color: hsl(224, 23%, 55%);
+}
+main p {
+  text-align: center;
+}
+
+.text__container {
+  background: rgb(255, 255, 255);
+  border-radius: 0 0px 20px 20px;
+  height: 430px;
+  /* background: rgb(255, 0, 0); */
+}
+.text__box {
+  width: 80%;
+  margin: auto;
+}
+
+.btn {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  width: 75%;
+  margin: 25px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px, 5px, 25px hsl(225, 93%, 45%);
+}
+.btn:hover {
+  background: hsl(245, 83%, 69%);
+}
+.change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.change:hover {
+  color: hsl(245, 83%, 69%);
+  text-decoration: none;
+}
+
+.cancel {
+  margin: 0 0 40px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.cancel:hover {
+  color: rgb(46, 46, 46);
+}
+
+footer {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@media (min-width: 1350px) {
+  .container__body {
+    width: 1400px;
+    height: 100vh;
+    max-width: 1410px;
+    margin: auto;
+    background: hsl(225, 100%, 94%) url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    width: 480px;
+    background: none;
+  }
+}
